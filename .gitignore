@@ -1,0 +1,60 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# -------------------------
+# Virtual environments
+# -------------------------
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# -------------------------
+# Playwright / Pytest
+# -------------------------
+playwright-report/
+test-results/
+reports/
+screenshots/
+allure-results/
+allure-report/
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# OS generated files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Logs
+# -------------------------
+logs/
+*.log
+
+# -------------------------
+# Coverage / Testing
+# -------------------------
+.coverage
+coverage.xml
+htmlcov/
+.cache/
+.pytest_cache/
