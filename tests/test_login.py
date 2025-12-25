@@ -51,5 +51,5 @@ class TestLogin:
         login.enter_username("userx")
         login.enter_password("pass")
         login.click_login_button()
-        assert login.get_alert_message() == "Invalid credential", f"Expected 'Invalid credentials, got '{login.get_alert_message()}'"
+        assert login.get_alert_message() == "Invalid credentials", f"Expected 'Invalid credentials, got '{login.get_alert_message()}'"
         logger.info("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Test Finished~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
