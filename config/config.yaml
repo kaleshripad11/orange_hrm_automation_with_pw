@@ -2,4 +2,4 @@ base_url: https://opensource-demo.orangehrmlive.com/
 username: Admin
 password: admin123
 exec_speed: 0
-headless_mode: False
+headless_mode: True
